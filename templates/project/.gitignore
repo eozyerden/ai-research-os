@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# R session/local files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local environment / secrets
+.env
+.env.*
+.Renviron
+
+# Never store project datasets in Git
+data/*
+!data/README.md
+
+# Temporary/cache material
+cache/
+tmp/
+temp/
+
+# Common temporary files
+*.log
+*.tmp
+*~
+
+# Diagnostic outputs may be regenerated
+output/diagnostics/*
+!output/diagnostics/.gitkeep
