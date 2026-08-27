@@ -11,6 +11,7 @@ Before creating files, determine:
 * working project title;
 * short project ID;
 * research type;
+* primary output;
 * field/subfield;
 * current research stage;
 * working language;

@@ -38,6 +38,8 @@ When work materially changes the project, update or create the appropriate persi
 
 Do not put every detail into `PROJECT.md`. Keep it as a concise current-state document.
 
+After substantial work, determine whether the project has materially changed stage or current objective. If so, update PROJECT.md. Do not edit PROJECT.md merely for routine bookkeeping when the current project state has not changed.
+
 ---
 
 ## 3. Default Autonomy
