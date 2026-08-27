@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# R temporary/session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Secrets / local environment
+.env
+.env.*
