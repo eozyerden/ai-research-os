@@ -268,6 +268,22 @@ High-stakes results should receive independent verification when practical.
 
 ## 13. AI Collaboration Settings
 
+### Execution Mode
+
+**Current execution mode:**
+[RESEARCHER_EXECUTES_CONSEQUENTIAL]
+
+Available modes:
+
+* `AGENT_EXECUTES` — AI agents may execute analysis when technically appropriate.
+* `RESEARCHER_EXECUTES_CONSEQUENTIAL` — agents may run diagnostics, tests, and routine code, but consequential/final empirical analyses are prepared for researcher execution.
+* `RESEARCHER_EXECUTES_ALL` — agents prepare code but do not execute substantive analysis unless explicitly authorized.
+
+The project may change execution mode during different research stages.
+
+When uncertain whether an execution is consequential, ask the researcher.
+
+
 Default project autonomy:
 
 **High technical autonomy with scientific escalation.**
