@@ -48,6 +48,21 @@ The researcher may choose to execute important R scripts manually on the local c
 
 Package-environment reproducibility will later be handled using **renv** or an equivalent system.
 
+### Cross-Platform R Execution
+
+The Research OS may run on both macOS and Windows.
+
+For shell-based or agent-based execution:
+
+- macOS/Linux: prefer `Rscript`
+- Windows: prefer `Rscript.exe`
+
+On Windows PowerShell, the command `R` may be reserved as an alias for `Invoke-History`, so automated workflows should not assume that plain `R` invokes R.
+
+Agents should detect the operating system when constructing shell commands and use the appropriate executable.
+
+R analysis code itself should remain platform-independent whenever practical.
+
 ---
 
 ## 3. Primary AI Systems
