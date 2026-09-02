@@ -298,6 +298,19 @@ Normal switching procedure:
 
 The same active Git repository should not normally be synchronized directly through Google Drive or another file-sync service.
 
+### Researcher checkpoints
+
+Agents should prompt the researcher explicitly at four points:
+
+* **SAVE** — write modified files in the editor. Unsaved buffers are not committed.
+* **COMMIT** — record a completed unit of work.
+* **PUSH** — end of every session, without exception.
+* **PULL** — start of every session, before editing.
+
+A project must not be edited on two machines without synchronizing between them first.
+
+`pull.ff only` is recommended so divergence fails loudly instead of merging silently.
+
 ---
 
 ## 8. Research Data Storage

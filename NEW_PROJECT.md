@@ -106,6 +106,10 @@ Use explicit statuses such as:
 * `unverified`;
 * `not yet defined`.
 
+Record the current Research OS commit hash (or tag) in the **Research OS
+version** field, so the project can later identify which version of the
+framework it was created from.
+
 The initial `PROJECT.md` should remain concise.
 
 ## 7. Preserve Template Separation

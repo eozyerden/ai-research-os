@@ -4,6 +4,7 @@
 **Project ID:** [SHORT PROJECT ID]
 **Status:** [IDEA / LITERATURE / DESIGN / DATA / ANALYSIS / WRITING / REVISION / COMPLETE]
 **Last updated:** [YYYY-MM-DD]
+**Research OS version:** [commit hash or tag at project creation]
 
 This file contains project-specific context. It overrides researcher defaults when explicitly stated.
 

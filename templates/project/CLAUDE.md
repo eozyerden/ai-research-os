@@ -40,6 +40,8 @@ Do not put every detail into `PROJECT.md`. Keep it as a concise current-state do
 
 After substantial work, determine whether the project has materially changed stage or current objective. If so, update PROJECT.md. Do not edit PROJECT.md merely for routine bookkeeping when the current project state has not changed.
 
+Files in `sessions/`, `decisions/`, `plans/`, and `verification/` are named `YYYY-MM-DD-short-name.md`.
+
 ---
 
 ## 3. Default Autonomy
